@@ -33,15 +33,15 @@ class GameTest {
 	
 	
 	
-//	@Test
-//	void test_vinght_un() {
-//		for(int i = 0 ; i<20 ; i++)
-//			game.roll(1);
-//		assertEquals(20, game.score());
-//	}
-//	
-//	
-//	
+	@Test
+	void test_vinght_un() {
+		for(int i = 0 ; i<20 ; i++)
+			game.roll(1);
+		assertEquals(20, game.score());
+	}
+	
+	
+	
 //	@Test
 //	void test_dix_un_dix_deux() {
 //		for(int i = 0 ; i<20 ; i++)

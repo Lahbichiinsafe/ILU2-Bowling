@@ -23,7 +23,7 @@ public class Game {
         int i= 0;
 
         for (int frame = 0; frame < 10; frame++) {
-                scoretotal += SommeQuilles(i);
+                scoretotal += ( rolls[i] + rolls[i + 1] );
                 i += 2;
             }
         
@@ -31,10 +31,6 @@ public class Game {
         return scoretotal;
     }
 
-
-    private int SommeQuilles(int i) {
-        return rolls[i] + rolls[i + 1];
-    }
 }
 	
 
